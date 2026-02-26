@@ -1,5 +1,5 @@
-django==5.1.5
-djangorestframework==3.14.0
+django
+djangorestframework
 django-cors-headers==4.3.1
 gunicorn==21.2.0
 whitenoise==6.6.0
