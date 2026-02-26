@@ -51,7 +51,6 @@ export default function Contact() {
             </div>
             <h5>Ready for offers and cooperation</h5>
             <p className="text-muted">
-              Phone: +1 (0) 000 0000 000 <br />
               Email: <a href="mailto:nicgarlinski@mail.com">nicgarlinski@mail.com</a>
             </p>
 
