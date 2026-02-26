@@ -9,11 +9,9 @@ class PostContentSerializer(serializers.ModelSerializer):
 
 
 class PostListSerializer(serializers.ModelSerializer):
-    """Lightweight serializer for the homepage post list."""
     class Meta:
         model = Post
-        fields = ['id', 'title', 'slug', 'author', 'date', 'hero_image', 'hero_image_alt', 'is_new', 'nav_label']
-
+        fields = ['id', 'title', 'slug', 'author', 'date', 'hero_image', 'hero_image_alt', 'is_new', 'nav_label', 'description']
 
 class PostDetailSerializer(serializers.ModelSerializer):
     """Full serializer including post content blocks."""

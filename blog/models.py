@@ -10,6 +10,7 @@ class Post(models.Model):
     hero_image_alt = models.CharField(max_length=200, blank=True)
     is_new = models.BooleanField(default=False)
     nav_label = models.CharField(max_length=50)
+    description = models.TextField(blank=True)
 
     class Meta:
         ordering = ['-date']
