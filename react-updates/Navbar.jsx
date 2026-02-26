@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 const LOGO_URL =
-  'https://media.discordapp.net/attachments/729514141911613452/760846701875167273/5a028110e3cb6efd4c36e5dc9f67c9d0.png?ex=679d7075&is=679c1ef5&hm=d8511221577f7dc8c046ffeb10e7c4738c57e4ae463be88fb765c18fdcb976ee&=&format=webp&quality=lossless&width=160&height=160'
+  'https://static-cdn.jtvnw.net/jtv_user_pictures/8d4346c8-3f87-41e1-8f7e-0c3aede5b85f-profile_image-70x70.png'
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
